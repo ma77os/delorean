@@ -1,0 +1,22 @@
+---
+default:
+    - debug: true
+      open: public/navigationbasic.swf
+      extra: -use-network=false
+    
+library-path:
+    - source/swc
+
+source-path:
+    - source/classes
+    - source/libs
+    
+applications:
+    - class: source/classes/Main.as
+      output: public/navigationbasic.swf      
+# asdoc:
+#     - title: "My ActionScript project"
+#       footer: "My ActionScript project footer"
+#       output: docs/
+#       exclude-dirs: 
+#         - source/classes/caurina/

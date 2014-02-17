@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	
+	<parameters>
+		<baseURL><![CDATA[test]]></baseURL>
+		<backendURL></backendURL>
+	</parameters>
+	
+	<navigation>
+		<view id="main" class="project.views.MainView">
+			<dependency id="main_assets"><![CDATA[swf/main_assets.swf]]></dependency>
+			
+			<view id="home" class="project.views.HomeView">
+				<dependency id="home_assets"><![CDATA[swf/home_assets.swf]]></dependency>
+			</view>
+			
+			<view id="about" class="project.views.AboutView">
+				<dependency id="about_assets"><![CDATA[swf/about_assets.swf]]></dependency>
+			</view>
+		</view>
+	</navigation>
+	
+</config>
